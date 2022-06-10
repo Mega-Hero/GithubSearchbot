@@ -1,0 +1,24 @@
+{
+  "name": "Harshith Telegraph upload bot",
+  "description": "You can upload photos on telegraph using this bot.",
+  "repository": "https://github.com/Mega-Hero/GithubSearchbot",
+  "logo": "https://telegra.ph/file/3d7270f81280b8ff25fdb.jpg",
+  "keywords": [
+    "bot",
+    "telegram",
+    "telegraph",
+    "Harshith Mutyala",
+    "Follow Us"
+  ],
+  "env": {
+     "BOT_TOKEN": {
+      "description": "Add your own bot token. Get token from botfather",
+      "value": "5479352430:AAGCNm0r5szmAWY3_8UfPZYw-sUoN7xchZg"
+    }
+   },
+   "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
